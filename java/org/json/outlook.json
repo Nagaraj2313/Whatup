@@ -1,0 +1,197 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Verify Adactin Hotal page",
+        "description": "",
+        "id": "verfity-adactin-hotal-booking;verify-adactin-hotal-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 50357914800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the Adactin hotel",
+            "match": {
+              "location": "FinalStep.user_is_on_the_Adactin_hotel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2314460700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Should enter \"Nagaraj2313\" and \"Naga@123\" and click",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nagaraj2313\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Naga@123\"",
+                  "offset": 36
+                }
+              ],
+              "location": "FinalStep.user_Should_enter_and_and_click(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4960499000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Select location for step \"Sydney\" and \"Hotel Creek\" and \"Standard\" and \"2\" and \"11/09/2021\" and \"12/09/2021\" and \"2\" and \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 71
+                },
+                {
+                  "val": "\"11/09/2021\"",
+                  "offset": 79
+                },
+                {
+                  "val": "\"12/09/2021\"",
+                  "offset": 96
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 113
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 121
+                }
+              ],
+              "location": "FinalStep.select_location_for_step_and_and_and_and_and_and_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1324519300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User to Select the Hotel  to confirm",
+            "match": {
+              "location": "FinalStep.user_to_Select_the_Hotel_to_confirm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1987238200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Main booking \"Nagaraj\" and \"Ravi\" and \"omr\" and \"1212121312121212\" and \"American Express\" and \"February\" and  \"2012\" and \"121\"  and Click",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nagaraj\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"Ravi\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"omr\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"1212121312121212\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"American Express\"",
+                  "offset": 71
+                },
+                {
+                  "val": "\"February\"",
+                  "offset": 94
+                },
+                {
+                  "val": "\"2012\"",
+                  "offset": 110
+                },
+                {
+                  "val": "\"121\"",
+                  "offset": 121
+                }
+              ],
+              "location": "FinalStep.main_booking_and_and_and_and_and_and_and_and_Click(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6462062500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User to Confirm the book orderID  and click",
+            "match": {
+              "location": "FinalStep.user_to_Confirm_the_book_orderID_and_click()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5012937900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User to Cancel the room Search click",
+            "match": {
+              "location": "FinalStep.user_to_Cancel_the_room_Search_click()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1486392900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should verify Book",
+            "match": {
+              "location": "FinalStep.user_should_verify_Book()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "verfity Adactin Hotal Booking",
+    "description": "",
+    "id": "verfity-adactin-hotal-booking",
+    "keyword": "Feature",
+    "uri": "C:/Users/nagaraj/eclipse-workspace/CucuBaseTaskfour/src/test/resources/Feature/login.feature",
+    "tags": []
+  }
+]
